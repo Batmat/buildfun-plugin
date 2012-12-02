@@ -1,0 +1,9 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" 
+   xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt" xmlns:local="local">
+    <tr>
+        <td><img src="${rootURL}${it.iconFileName}" alt="${it.displayName}"/></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;font-family:'Courier',monospace;"><j:out value="${it.text}"/></td>
+    </tr>
+</j:jelly>
